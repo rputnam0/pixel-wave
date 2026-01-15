@@ -1,0 +1,5 @@
+{
+  "name": "Subtle ASCII Grid Background",
+  "description": "A performance-optimized, animated pixel grid background replicating a subtle shimmer effect using Canvas 2D and Simplex noise.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subtle Pixel Grid</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body { margin: 0; overflow-x: hidden; background-color: #F6F2EF; }
+      /* Hide lil-gui in production if needed, or style it */
+      .lil-gui { z-index: 9999 !important; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lil-gui": "https://esm.sh/lil-gui@^0.21.0",
+    "seedrandom": "https://esm.sh/seedrandom@^3.0.5",
+    "simplex-noise": "https://esm.sh/simplex-noise@^4.0.3"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
